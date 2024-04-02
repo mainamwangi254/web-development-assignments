@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <form action="processing.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name" value="Andrew Maina" required>
+       <br>
+      <label for="Dob">Dob:</label>
+      <input type="date" name="dob" id="dob" placeholder="2/4/2024" required>
+      <br>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" required>
+      <br>
+      <label  for="Telephone">Telephone:</label>
+      <input type="number" id="Telephone" name="Telephone" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="andrewmaina34@gmail.com" required>
+      <br>
+      <label for="course">Course:</label>
+      <input type="text" id="course" name="course" required>
+      <br>
+      <input type="radio" id="gender" name="gender" value="Male">
+      <label for="male">Male</label>
+      <br>
+      <input type="radio" id="gender" name="gender" value="Female">
+      <label for="female">Female</label>
+      <br>
+      <input type="submit" value="register"> 
+      <input type="submit" value="cancel">
+    </form>
+</body>
+</html>
